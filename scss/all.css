@@ -1,0 +1,516 @@
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Wendy One', sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  background-image: url("/img/bg_yellow.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 850px 767px;
+}
+
+.d-fx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d-b {
+  display: block;
+}
+
+.jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jc-sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.fxd-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fxw-w {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.fw-b {
+  font-weight: bold;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.fw-4 {
+  font-weight: 400;
+}
+
+.fw-7 {
+  font-weight: 700;
+}
+
+.pr-8 {
+  padding-right: 8px;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.container h1,
+.container h2,
+.container h3 {
+  font-weight: bold;
+}
+
+.block-one {
+  height: 100vh;
+}
+
+.navbar {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.navbar .index-log {
+  display: block;
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 218px;
+  height: 40px;
+}
+
+.navbar .planfee {
+  color: #fff;
+  font-size: 16px;
+  background: #FF5D50;
+  width: 128px;
+  height: 40px;
+  border-radius: 22px;
+  padding: 8px 32px;
+}
+
+.banner {
+  margin-bottom: 217px;
+}
+
+.banner-text {
+  width: 50%;
+}
+
+.banner-text h3 {
+  font-size: 18px;
+  color: #56C4C5;
+  padding-bottom: 8px;
+}
+
+.banner-text h2 {
+  font-size: 48px;
+  padding-bottom: 16px;
+}
+
+.banner-text p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.banner-img {
+  width: 50%;
+}
+
+.platform-title {
+  font-size: 32px;
+  margin-bottom: 48px;
+}
+
+.platform img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 24px;
+}
+
+.platform h3 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.platform p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #747474;
+}
+
+.main {
+  max-width: 1120px;
+  height: 600px;
+}
+
+.main h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.main p {
+  font-size: 20px;
+  margin-bottom: 48px;
+  font-weight: 400;
+}
+
+.main .main_card li {
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+}
+
+.main .main_card h3 {
+  font-size: 16px;
+  color: #56C4C5;
+  padding: 16px;
+}
+
+.main .main_card p {
+  font-size: 16px;
+}
+
+.plan .asideList {
+  width: 50%;
+  gap: 28px 47px;
+}
+
+.plan .asideList .list-Card {
+  width: 230px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  padding: 32px;
+}
+
+.plan .asideList .list-Card .planImg {
+  width: 86px;
+  height: 86px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  margin-bottom: 24px;
+}
+
+.plan .asideList .list-Card h3 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.plan .asideList .list-Card p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.plan .bsideArea {
+  width: 50%;
+  padding-left: 90px;
+}
+
+.plan .bsideArea h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.plan .bsideArea p {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 36px;
+}
+
+.plan .bsideArea a {
+  padding: 12px 32px;
+  background-color: #56C4C5;
+  color: #FFFFFF;
+  border-radius: 27px;
+}
+
+.comment h2 {
+  font-size: 32px;
+  padding-bottom: 48px;
+}
+
+.swiper {
+  padding: 60px 16px 0 0;
+}
+
+.swiper-wrapper {
+  padding: 0 0 16px 8px;
+}
+
+.swiper-slide {
+  height: initial;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  padding: 48px 32px 24px 32px;
+  position: relative;
+}
+
+.swiper-slide .comImg {
+  position: absolute;
+  top: -66px;
+  left: 12px;
+}
+
+.swiper-slide .comText {
+  text-align: left;
+}
+
+.swiper-slide .comBorder {
+  padding-top: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.swiper-slide .comJob {
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+/* 將底部 pagination 分頁的 active 狀態改為想要的樣式 */
+.swiper-pagination-bullet-active {
+  width: 20px;
+  border-radius: 8px;
+}
+
+/* 讓分頁圓點移至下方 */
+.swiper-pagination {
+  position: static;
+  top: 24px;
+}
+
+/* 將套件主色改為黃色 */
+:root {
+  --swiper-theme-color: #FFD153;
+}
+
+.footer .footer-box {
+  background-image: url("/img/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 503px;
+}
+
+.footer h3 {
+  font-size: 32px;
+  margin-bottom: 48px;
+  margin-top: 260px;
+  font-weight: bold;
+}
+
+.footer a {
+  padding: 12px 32px;
+  background-color: #56C4C5;
+  color: #FFFFFF;
+  border-radius: 27px;
+}
+
+.footer p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #F5F5F5;
+  padding: 16px 0;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=all.css.map */

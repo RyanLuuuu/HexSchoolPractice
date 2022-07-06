@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align:middle;
+}
+
+sub {
+    vertical-align: sub;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Wendy One', sans-serif;
+    line-height: 1.5;
+}
